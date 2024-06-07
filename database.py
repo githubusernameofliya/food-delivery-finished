@@ -5,9 +5,9 @@ from pymysql import connect
 database = connect(
     database="railway",
     user="root",
-    password="JvPfoAwydJLzQLcrdErStZHfoaqqiKzU",
-    host="monorail.proxy.rlwy.net",
-    port=10694
+    password="tbkCVpXPTHxsOEnAgyguwJqUufGmlBWX",
+    host="roundhouse.proxy.rlwy.net",
+    port=19164
 )
 
 cursor = database.cursor()
